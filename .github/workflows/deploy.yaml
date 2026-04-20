@@ -24,7 +24,7 @@ jobs:
         run: go mod download
 
       - name: Run tests
-        run: go ./../..
+        run: go test ./...
   compile:
     needs: test
     # Specify the Os for the runner (container)
