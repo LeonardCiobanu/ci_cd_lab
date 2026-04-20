@@ -23,10 +23,8 @@ jobs:
       - name: Install dependencies
         run: go mod download
 
-      # TODO 01 - Add a step to run tests
       - name: Run tests
-        run: go ./..
-  # Job to compile the application
+        run: go ./../..
   compile:
     needs: test
     # Specify the Os for the runner (container)
