@@ -25,7 +25,7 @@ jobs:
 
       # TODO 01 - Add a step to run tests
       - name: Run tests
-        run: go ./...
+        run: go ./..
   # Job to compile the application
   compile:
     needs: test
