@@ -49,7 +49,7 @@ jobs:
       - name: Compile binary
         run: go build -o myapp
   build:
-    runs-on: ubuntu-lateest
+    runs-on: ubuntu-latest
 
     # Grant write permissions to access repository contents and GitHub Container Registry
     permissions:
